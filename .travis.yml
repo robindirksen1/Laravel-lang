@@ -1,4 +1,4 @@
 language: php
 
 script:
-   - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then php scripts/todo.php; fi'
+   - 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then php script/todo.php; fi'
